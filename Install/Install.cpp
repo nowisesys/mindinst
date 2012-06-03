@@ -11,7 +11,7 @@
 
 static void Usage() 
 {
-        wprintf(L"BDS IP Firewall (IPFW32) Installer\n");
+        wprintf(L"NDIS Miniport Driver Installer\n");
         wprintf(L"\n");
         wprintf(L"Usage: %s <inf-file> [-i|-u] [-c|-s|-p]\n", APP_NAME);
         wprintf(L"Options:\n");
@@ -22,7 +22,7 @@ static void Usage()
         wprintf(L"  -p:  Configure network protocol.\n");
         wprintf(L"  -h:  This casual help.\n");
         wprintf(L"\n");
-        wprintf(L"Copyright (C) 2011 Anders Lövgren, Computing Department at BMC, Uppsala University.\n");
+        wprintf(L"Copyright (C) 2011-2012 Anders Lövgren, Computing Department at BMC, Uppsala University.\n");
 }
 
 HRESULT
@@ -73,6 +73,11 @@ int _tmain(int argc, _TCHAR* argv[])
         UINT uiInstallMode = MODE_INSTALL;
         HRESULT hr;
         int i;
+
+        // 
+        // Required to get output of swedish characters to console:
+        // 
+        setlocale(LC_CTYPE, "swedish");
 
         if(argc < 2) {
                 Usage();
