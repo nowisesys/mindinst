@@ -4,8 +4,9 @@
 
 #include <stdio.h>
 #include <tchar.h>
+#include <locale.h>
 
-#define APP_NAME            L"Install"
+#define APP_NAME            L"mindinst"
 
 #define INSTALL_DEVCLASS_NETCLIENT   0
 #define INSTALL_DEVCLASS_NETSERVICE  1

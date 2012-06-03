@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="Install"
+	Name="mindinst"
 	ProjectGUID="{A3D10788-418D-4128-AA41-5BE86DEEAE1C}"
 	RootNamespace="Install"
 	Keyword="Win32Proj"
