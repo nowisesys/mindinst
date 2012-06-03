@@ -69,13 +69,13 @@ BEGIN
     BEGIN
         BLOCK "041d04b0"
         BEGIN
-            VALUE "Comments", "Installer for NDIS miniport driver and service."
+            VALUE "Comments", "Installer for NDIS miniport client, service and protocol driver."
             VALUE "CompanyName", "Uppsala University"
             VALUE "FileDescription", "NDIS Miniport Driver Installer"
             VALUE "FileVersion", "1, 0, 0, 2"
             VALUE "InternalName", "Mindinst"
             VALUE "LegalCopyright", "Copyright (C) 2011-2012 Anders Lövgren. Computing Department at BMC, Uppsala University"
-            VALUE "OriginalFilename", "Mindinst.exe"
+            VALUE "OriginalFilename", "mindinst.exe"
             VALUE "ProductName", "Installer Application"
             VALUE "ProductVersion", "1, 0, 0, 2"
         END
