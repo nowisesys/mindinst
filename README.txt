@@ -27,6 +27,9 @@ drivers (like the BSD IP Firewall [IPFW32]) on Windows XP or later.
    is the unmodified except for removal of GUI calls. These files are _not_ the 
    original, only the minimal set of required function have been used.
 
+   Unless otherwise stated, the source code is released under the license agreement
+   in license.rtf (the Windows DDK sample license).
+
 ** EXIT CODES:
 
    The following exit code are used:
@@ -37,10 +40,9 @@ drivers (like the BSD IP Firewall [IPFW32]) on Windows XP or later.
 
 ** RELEASE NOTES:
 
-   This code is not permitted to be released as source code, only in object code 
-   form (binary). See 2a (i) in license.rtf distributed with WDK.
+   This code, including any derived work, is distributed under the terms in license.rtf
    
-   A binary release can be downloaded from: 
+   Source code and binary releases can be downloaded from: 
    http://it.bmc.uu.se/andlov/win32/mindinst/
 
 
